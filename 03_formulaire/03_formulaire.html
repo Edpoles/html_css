@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="03_formulaire.css" rel="stylesheet" type="text/css" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <div>
+    <!--je déclare mon formulaire avec la balise form-->
+    <form>
+      <label for="pseudo">Pseudo *</label>
+      <input
+        type="text"
+        id="pseudo"
+        name="pseudo"
+        placeholder="TitiVLG"
+        required
+      />
+      <!--REQUIRED INDIQUE QUE LE CHAMPS DOIT être renseigner-->
+      <br />
+      <!--mot de passe-->
+      <label for="mdp">Mot de passe *</label>
+      <input
+        type="password"
+        id="mdp"
+        name="mdp"
+        placeholder="Mot de passe"
+        required
+      />
+      <!--email-->
+      <br />
+      <label for="email">E-mail</label>
+      <input type="email" id="email" placeholder="email" required />
+      <br />
+      <!--fichier-->
+      <label for="photo">Photo</label>
+      <input type="file" id="photo" name="photo" />
+      <br />
+      <!--case à coher-->
+      <label for="question">Quelle destination choissez-vous</label>
+      <p>
+        <input type="checkbox" id="Chine" name="question" /> Chine
+        <input type="checkbox" id="Australie" name="question" /> Australie
+        <input type="checkbox" id="Mars" name="question" /> Mars
+      </p>
+      <!--Zone de texte-->
+      <label for="commentaire">commentaire</label>
+      <textarea
+        type="textrea"
+        id="Commentaire"
+        name="Commentaire"
+        rows="8"
+        cols="80"
+      ></textarea>
+      <!--rows= nombre de lignes - cosl = nbre de colognes:caractére-->
+      <br />
+      <!--bouton d envoie du formulaire-->
+      <input
+        type="submit"
+        id="inscription"
+        name="inscription"
+        value="Envoyer"
+      />
+      <!--bouton pour vider le formulaire-->
+      <input type="reset" id="annuler" name="annuler" value="Annuler">
+      <br />
+    </form>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.carte{
+    display: flex;
+}
+
+.carte{
+width: 1000px;
+margin:0 auto;
+bottom: 30px;
+top: 30px;
+}
+
+.carte{
+    padding: 5px;
+    text-align: center;
+}
