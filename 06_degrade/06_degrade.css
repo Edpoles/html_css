@@ -4,7 +4,5 @@
     width: 45em;
     height: 45em;
     margin: 0 auto;
-    border-radius: 50%;  /* ctt propriété arondi les angles  */
-    
-   
+    border-radius: 50%;  /* ctt propriété arrondi les angles  */ 
 }
