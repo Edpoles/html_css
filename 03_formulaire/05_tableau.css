@@ -1,0 +1,45 @@
+* {
+    font-family: fantasy;
+}
+body {
+    width: 50%;
+    /* largeur de ma page 50% de l'écran */
+    margin: auto;
+    /* gestion automatique des marge pour que mon tableau soit centré */
+    padding: left;
+}
+table {
+    border: 3px solid #483d8b;
+    /* bordure - 3 valeurs : épaisseur / TYPE DE TRAIT : couleur  */
+    border-collapse: collapse;
+    /* par défaut la bordure contient 2 traits, pour que le trait soit unique */
+    width: 90%;
+    /* largeur du tableau par rapport à son contenant */
+}
+thead,
+tfoot {
+    background-color: #e6eefa;
+    border:2px solid #6a5acd;
+}
+tbody {
+    border:2px solid #6a5acd;
+}
+th {
+    border: 2 px dotted #6a5acd;
+/* dotted = pointillé */
+padding: 4px;
+background-color: #e6eefa;
+width: 25px;
+}
+td {
+    font-size: 100%;
+    border: 1px dotted #6a5acd;   
+    text-align: center;
+    padding:5px;
+    /* padding = marge interne */
+}
+td:first-child {
+    /* 1er <td> pour aligner le texte à gauche de la première cellule de chaque rangée */
+    text-align: center;
+    background-color: #e6eefa;
+}
