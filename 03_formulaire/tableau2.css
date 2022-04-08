@@ -1,0 +1,28 @@
+body {
+width: 50%;
+    margin: auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+td {
+    height: 30px;
+    width: 30px;
+    border : 1px solid
+}
+
+.y {
+    background-color: yellow;
+}
+.g
+ {
+    background-color: grey;
+}
+.b {
+    background-color: black;
+}
+.bl {
+    background-color: blue;
+}
