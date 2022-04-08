@@ -1,0 +1,10 @@
+.contenu {
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /* dégradé qui démarre avec la 1ère couleur et finit avec la seconde de haut en bas */
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    border-radius: 50%;  /* ctt propriété arondi les angles  */
+    
+   
+}
