@@ -1,0 +1,26 @@
+.boite1 {
+    height: 194px;
+    width: 260px;
+    padding: 5vh;
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    margin: 2vh;
+    float: left;
+    transition: 3s;
+}
+.boite2 {
+    height: 194px;
+    width: 260px;
+    padding: 5vh;
+    background-color: green;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    margin: 2vh;
+    float: left;
+    transition: 3s;
+  
+}
+.clear { 
+clear:both;
+}
