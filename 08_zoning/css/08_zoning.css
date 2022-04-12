@@ -1,0 +1,32 @@
+body 
+{
+    color:white;
+    font-size: 25px;
+}
+#conteneur 
+{
+width: 80%;
+margin: auto;
+border: 2px solid darkslategray;
+}
+header {
+    background-color: #4a1a2c;
+    height: 100px;
+}
+nav {
+    background-color: blueviolet;
+    height: 30px;
+}
+section {
+    background-color: aliceblue;
+    height: 500px;
+    margin: 20px;
+}
+.a, b, 
+{
+width: 300px;
+height:250px;
+border: 1px solid black;
+
+
+}

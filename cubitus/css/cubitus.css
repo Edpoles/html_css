@@ -1,7 +1,6 @@
 .contenu 
 {
 display: flex;
-
 }
 .vert
 {
@@ -34,7 +33,7 @@ display: flex;
     width: 50px;
     height: 50px;
     border:2px solid black;
-    border-radius: 35% 45% 35% 45%;
+    border-radius: 20% 45% 20% 45%;
     background-color: rgb(229, 156, 156); 
     margin: 2px; 
 }
@@ -51,5 +50,4 @@ display: flex;
     height: 50px;
     background-color: white;
     margin: 2px;
-
 }
