@@ -23,8 +23,6 @@ h3 {
     width:80px;
     height: 80px;
 /*flex-grow: 2;    /*pour definir la taille d'un element au debut par rapport au autres elements,je donne la possiblite de grandir l'élement si necessaire*/
-    
-   
 }
 .item2{
     background-color:green;
@@ -34,7 +32,7 @@ h3 {
   
    
 }
-.item3{
+.item3 {
     background-color:red;
     width:80px;
     height: 80px;
@@ -71,8 +69,7 @@ center:il va centrer les elements dans le conteneur
     height: 400px;
     display:flex;
     flex-direction:column;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
-    justify-content: space-between;
-   
+    justify-content: space-between;  
 }
 .contenu_4{
     border:1px solid orange;
