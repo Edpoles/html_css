@@ -1,4 +1,5 @@
-.boite1 {
+.boite1 
+{
     height: 194px;
     width: 260px;
     padding: 5vh;
@@ -9,7 +10,8 @@
     float: left;
     transition: 3s;
 }
-.boite2 {
+.boite2 
+{
     height: 194px;
     width: 260px;
     padding: 5vh;
@@ -19,8 +21,8 @@
     margin: 2vh;
     float: left;
     transition: 3s;
-  
 }
-.clear { 
+.clear 
+{ 
 clear:both;
 }

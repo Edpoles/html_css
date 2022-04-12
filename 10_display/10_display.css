@@ -1,0 +1,17 @@
+
+h1 { 
+    border:2px solid magenta ; background-color: rgb(179, 200, 240);
+}
+h2 {
+    text-align: left;
+}
+div { 
+    text-align: center;
+    border:2px solid magenta ; background-color: rgb(179, 200, 240);   
+}
+a {
+    border:2px solid magenta; background-color:rgb(179, 200, 240) ;
+}
+span {
+    border:2px solid magenta; background-color: grey;
+}
