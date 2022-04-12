@@ -9,7 +9,6 @@ h2 {
     background-color: #6b737f;
     color: white;
     padding: 0.5em;
-   
 }
 
 h3 {
@@ -37,9 +36,7 @@ h3 {
     width:80px;
     height: 80px;
     order:1;/*il change l'ordre d'affichage d'un element par rapport au flux web(insertion par defaut dans html)*/
-  
     
-   
 }
 .contenu_1{
     border:1px solid orange;
