@@ -1,0 +1,51 @@
+header {
+    background-color: red;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    width: 800px;
+}
+.contener 
+{
+    width: 800px;
+    height: 600px;
+    margin: auto; 
+}
+body { 
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    line-height: normal;
+}
+.ZG 
+{
+background-color: blue; 
+line-height: 500px;
+flex-direction: column;  
+float: left; 
+height: 500px;
+width: 165px;
+}
+.Zv 
+{
+    background-color: green;
+    border: 2px solid black;
+    flex-direction: column;  
+    float: left;
+    height: 400px;
+    width: 90px;
+}
+.ZB
+{
+     background-color: yellow; 
+    height: 100px;
+    line-height: 100px;
+    width: 470px;
+    position: relative;
+    top: -96px;
+    left: 165px;
+
+}
+.clear {
+    clear:both
+}
