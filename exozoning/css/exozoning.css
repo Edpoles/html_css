@@ -1,0 +1,52 @@
+body
+{
+ width:80%;
+    color:white;
+    font-size: 25px;
+    margin:auto;
+    text-align: center;
+}
+#conteneur{
+    width: 1000px;
+}
+header
+{
+    background-color: rgb(143, 106, 24);
+    text-align: center;
+    height: 100px;
+}
+nav {
+    background-color: brown;
+    text-align: center;
+    height: 30px;
+    margin: auto;
+}
+section {
+    background-color: cyan;
+    height: 500px;
+    margin:auto;
+}
+footer {
+    background-color: grey;
+    height: 100px;
+    text-align: center;
+}
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p {
+width: 246px;
+height: 125px;
+border:2px solid white;
+float:left;
+}
+.a, .b, .c, .d {
+    background-color: beige;
+}
+.e, .f, .g, .h {
+    background-color: grey;
+}
+.i, .j, .k, .l {
+    background-color: brown;
+}
+.m, .n, .o, .p {
+    background-color:bisque;
+}
+.clear {clear:both}
