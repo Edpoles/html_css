@@ -1,0 +1,36 @@
+.container {
+width: 1300px;
+margin:1px auto;
+background-color: rgb(7, 109, 75);
+color:white;
+}
+header {
+    font-size: 18px;
+    background-color: bisque;
+    color:black;
+}
+nav{
+    background-color: #4a1a2c;
+    color: white;
+    height:50px;
+    line-height: 45px;
+    padding: left;
+}
+nav a {
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 2em;
+    border-right: 1px solid white;
+    padding-right: 2em;
+}
+footer {
+    background-color: palevioletred;
+    height: 100px;
+}
+nav a:last-child {
+    border-right: none;
+}
+section {
+    display: flex;
+}
