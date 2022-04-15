@@ -1,0 +1,51 @@
+
+header {
+    background-color: blueviolet;
+    height: 40px;
+}
+.container {
+    width: 100%;
+}
+body {
+font-size: 18px;
+}
+.blocH {
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    height: 350px;
+}
+nav {
+    background-color: aqua;
+    color:white; 
+    border: 2px solid white;
+}
+.g {
+    width: 20%;
+}
+.info-text {
+   text-align: left;
+   width: 40%;
+  
+}
+.question {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    width: 20%;
+    padding: 5px;
+    height: min-content;
+}
+section 
+{
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+}
+footer 
+{
+    background-color: aqua;
+    color:white;
+    height: 50px;
+    line-height: 50px;
+}
