@@ -1,0 +1,45 @@
+/*--- importer des polices--- */
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+body {
+    font-family: "cormarant Garamond", serif;
+    background-color: white;
+}
+
+/* degradée  */
+.couleur_degrade {
+background: linear-gradient(left,right);
+}
+.text_maj {
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+/* propriete css */
+.propriete_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-between;
+    /* valeur par defaut */
+    align-items: stretch;
+    /* ligne du haut */
+    align-items: flex-start;
+    /* ligne du bas */
+    align-intems:flex-end;
+    align-items: center;
+    align-content: center;
+    align-content:
+
+
+
+
+
+}
