@@ -80,7 +80,7 @@ var unBooleen = false; // -- true
 
 // -- Par convention les constantes sont en majuscules
 const PAYS = "France"; // string
-const AN = "2020"; // string
+const AN = '2020'; // string
 const BIRTH = 2020; // nombre
 
 // -- 6. typeof permet de connaître le type de ma variable
@@ -98,27 +98,27 @@ console.log(unChiffre);
 console.log(typeof unChiffre);
 
 // STRING => NUMBER
-unChiffre = parseInt(unChiffre);
-console.log(unChiffre);
-console.log(typeof unChiffre);
+var unChiffreEntier = parseInt(unChiffre);
+console.log(unChiffreEntier);
+console.log(typeof unChiffreEntier);
 
 // je ré-affecte une valeur
-unChiffre = "12.22";
-console.log(unChiffre);
-console.log(typeof unChiffre);
+var unStringChiffre = "12.22";
+console.log(unStringChiffre);
+console.log(typeof unStringChiffre);
 
 // STRING => FLOAT
-unChiffre = parseFloat(unChiffre);
-console.log(unChiffre);
-console.log(typeof unChiffre);
+var unChiffreDecimal = parseFloat(unStringChiffre);
+console.log(unChiffreDecimal);
+console.log(typeof unChiffreDecimal);
 
 // NUMBER => STRING
-var nb_en_lettres = 258;
-console.log(nb_en_lettres);
-console.log(typeof nb_en_lettres);
+var nbEnEntier = 258;
+console.log(nbEnEntier);
+console.log(typeof nbEnEntier);
 
-var nb_en_lettres = nb_en_lettres.toString();
-console.log(nb_en_lettres);
-console.log(typeof nb_en_lettres);
+var nbEnLettres = nbEnEntier.toString();
+console.log(nbEnLettres);
+console.log(typeof nbEnLettres);
 
 // FIN

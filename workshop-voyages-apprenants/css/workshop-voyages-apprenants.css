@@ -1,0 +1,86 @@
+header {
+  width: 100%;
+  background: linear-gradient(rgb(45, 253, 149), rgb(34, 193, 195));
+}
+.navi {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: white;
+}
+.phrase {
+  width: auto;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  background: linear-gradient(rgb(45, 253, 149), rgb(34, 193, 195));
+}
+.container {
+  width: 100%;
+}
+.main {
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+}
+.bloc1,
+.bloc2,
+.bloc3 {
+  width: 80%;
+  border-radius: 2%;
+  align-items: flex-start;
+  margin: auto;
+  margin-top: 1rem;
+}
+.bloc1,
+.imgjapon,
+.textejapon {
+  background: linear-gradient(rgb(191, 129, 148), rgb(86, 166, 241));
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.bloc2 {
+  background: linear-gradient(rgb(97, 227, 194), rgb(70, 134, 195));
+  color: white;
+  display: flex;
+}
+.bloc3 {
+  background: linear-gradient(rgb(226, 132, 23), rgb(92, 144, 181));
+  color: white;
+  display: flex;
+}
+.imagejapon img,
+.imagethai img,
+.imageinde img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+footer {
+  width: auto;
+  height: 50px;
+  line-height: 45px;
+  color: white;
+  background-color: rgb(97, 227, 194);
+  text-align: left;
+}

@@ -25,29 +25,56 @@
 // document.write(typeof monChiffreDecimal);
 
 // STRING => FLOAT
-var maChainedeCaractere = "57.12";
+// var maChainedeCaractere = "57.12";
 // document.write(typeof maChainedeCaractere);
-var converti = parseFloat("maChainedeCaractere");
+// var converti = parseFloat("maChainedeCaractere");
 // document.write(typeof converti);
 
 // NUMBER => STRING
-var maChainedeCaractere2 = parseInt(converti);
-console.log(maChainedeCaractere2);
+// var maChainedeCaractere2 = parseInt(converti);
+// console.log(maChainedeCaractere2);
 // document.write(typeof maChainedeCaractere2);
 // document.write(maChainedeCaractere2);
 
-var maChainedeCaractere3 = maChainedeCaractere2.toString();
-console.log(maChainedeCaractere3);
-console.log(typeof maChainedeCaractere3);
+// var maChainedeCaractere3 = maChainedeCaractere2.toString();
+// console.log(maChainedeCaractere3);
+// console.log(typeof maChainedeCaractere3);
 // document.write(maChainedeCaractere3);
 
 // CONCATENATION
-document.write(
-  maChainedeCaractere +
-    "-" +
-    converti +
-    "-" +
-    maChainedeCaractere2 +
-    "-" +
-    maChainedeCaractere3
-);
+// document.write(
+//   maChainedeCaractere +
+//     "-" +
+//     converti +
+//     "-" +
+//     maChainedeCaractere2 +
+//     "-" +
+//     maChainedeCaractere3
+// );
+
+var annee = 2017;
+var futur = 3;
+var calcul = annee + futur;
+console.log(calcul);
+document.write(calcul + "&nbsp,&nbsp" + calcul + "<br>");
+document.write(calcul + "<br>");
+
+var nb1, nb2, resultat;
+nb1 = 10;
+nb2 = 5;
+resultat = nb1 + nb2;
+console.log(resultat);
+document.write(resultat + "<br>");
+
+var resultatSoustraction = nb1 - nb2;
+console.log(resultatSoustraction);
+document.write("&nbsp" + resultatSoustraction);
+
+var resultatMultiplication = nb1 * nb2;
+console.log(resultat);
+
+var resultat3 = nb1 / nb2;
+console.log(resultat3);
+
+resultat = nb1 % nb2;
+console.log(resultat);
