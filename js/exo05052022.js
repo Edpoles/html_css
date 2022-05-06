@@ -89,4 +89,29 @@
 // document.write("la valeur de nb1 est égale à" + "&nbsp" + nb1 + "<br>");
 // document.write("la valeur de nb2 est égale à" + "&nbsp" + nb2 + "<br>");
 
-let numérique = 2022;
+// boucle
+// 1. initialise un compteur à partir de combien je compte (par défaut le compteur est la variable 'i')
+// 2. la condition à vérifier qui doit donc être VRAIE (TRUE)
+// 3. le 'pas' d'incrémentation (combien j'ajoute à chaque tour, généralement 1 donc i++)
+// */
+// for (var i = 1; i <= 10; i += 2) {
+//   document.write("<p>Instruction exécutée : " + i + "</p>");
+// }
+
+// -- La boucle WHILE (tant que)
+// très utilisée quand on ne connaît pas le nombre de tours de boucles à l'avance
+// var j = 1;
+// while (j <= 10) {
+//   document.write("<hr /><p>Instruction exécutée : " + j + "</p>");
+//   /* 50 lignes de code */
+//   j += 2; // j = j + 1; OU j += 1;
+// }
+
+// for (var e = 5; e <= 15; e += 2) {
+//   document.write("<p> Instruction exécutée : " + e + "</p>");
+// }
+
+// while
+// var e = 3;
+var i = 10;
+for ( var i = 1)
