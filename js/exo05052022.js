@@ -113,5 +113,3 @@
 
 // while
 // var e = 3;
-var i = 10;
-for ( var i = 1)

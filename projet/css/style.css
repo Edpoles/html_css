@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+body {
+  font-family: "Caveat Brush", cursive;
+  margin: 0px;
+  padding: 0px;
+}
+/* police Caveat */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+header {
+  width: 700px;
+  height: 500px;
+  background: url("../img/Textures.jpg");
+  display: flex;
+}
+/* texture header */
+.triangle {
+  display: center;
+  height: 0;
+  width: 0;
+  border-top: 150px solid red;
+  border-left: 150px solid transparent;
+}
+/* triangle header */
+.textehead {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: auto;
+  text-align: left;
+}
+.hyphen {
+  background-color: red;
+  width: 25px;
+  height: 10px;
+}
+/* trait sous les titres */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
