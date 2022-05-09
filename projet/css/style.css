@@ -3,32 +3,25 @@ body {
   font-family: "Caveat Brush", cursive;
   margin: 0px;
   padding: 0px;
+  font-size: 100%;
 }
 /* police Caveat */
 .container {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
 }
 header {
-  width: 700px;
+  width: 1200px;
   height: 500px;
   background: url("../img/Textures.jpg");
   display: flex;
+  flex-direction: row;
 }
 /* texture header */
-.triangle {
-  display: center;
-  height: 0;
-  width: 0;
-  border-top: 150px solid red;
-  border-left: 150px solid transparent;
-}
-/* triangle header */
 .textehead {
-  display: flex;
-  justify-content: flex-start;
   padding-right: auto;
   text-align: left;
+  padding-left: 15px;
 }
 .hyphen {
   background-color: red;
@@ -38,10 +31,120 @@ header {
 /* trait sous les titres */
 .logo {
   display: flex;
+}
+.triangle {
+  display: center;
+  height: 0;
+  width: 0;
+  border-top: 150px solid red;
+  border-left: 150px solid transparent;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
-.menu {
-  margin: auto;
+/* triangle header */
+ul {
+  list-style: none;
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-end;
+}
+li {
+  padding: 0px 10px 0px 10px;
+  align-items: flex-end;
+}
+main {
+  width: auto;
+}
+h1 {
+  text-align: center;
+}
+.row1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: content-box;
+  margin-right: auto;
+}
+.texte1 {
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+}
+.img1 {
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: content-box;
+}
+.img2 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  width: 100%;
+}
+.texte2 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+.imgt1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: content-box;
+  margin-right: auto;
+}
+.texte3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgt2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img3 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  flex-wrap: nowrap;
+}
+.row4 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.img4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+footer {
+  background: url(../img/motif.jpg);
+  width: 100%;
+  display: flex;
+}
+.textgauchefoot {
+  flex-direction: column;
+  padding-right: auto;
+  text-align: left;
+  padding-left: 15px;
+  text-align: center;
 }
